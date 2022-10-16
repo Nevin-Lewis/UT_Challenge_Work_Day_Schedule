@@ -4,7 +4,7 @@ var events = []
 localStorage.getItem("event", JSON.stringify(events));
 
 for (let i = 0; i<12; i++){
-    $(".container").append("<section class=row> <aside class=hour> </aside > <textarea name=tasks> </textarea> <button class= saveBtn>SAVE</button</section>");
+    $(".container").append("<section class=row> <aside class=hour> </aside > <textarea name=tasks> </textarea> <button class= saveBtn> <i class='fa fa-save fa-2x'> </i></button</section>");
     $("aside").eq(i).append(hours[i]);};
 
 
@@ -29,6 +29,4 @@ $("button").each(function(index){
     events[index] = $("textarea[name='tasks']").eq(index).val();
     localStorage.setItem("event", JSON.stringify(events))})
 });
-
-
-  init();
+init();
