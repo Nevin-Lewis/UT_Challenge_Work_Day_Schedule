@@ -8,7 +8,7 @@ This was the password generatoro assignment. I did not use a pop-op window for e
 N/A
 
 ## Access
-Follow link --> https://nevin-lewis.github.io/UT_Password_Generator-/
+Follow link --> https://nevin-lewis.github.io/UT_Challenge_Work_Day_Schedule/
 ## Photo of my edits
 
 
