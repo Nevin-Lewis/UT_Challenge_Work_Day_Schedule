@@ -2,7 +2,7 @@
 This is the repo for our workday calendar project
 
 ## Descriptions
-This was the password generatoro assignment. I did not use a pop-op window for each element, instaed I opted for a single pop-up window to add all the sections of the password. I also created a slider instead of length input, and therefore did not need a warning for length because I sent the range from 8-128. I added a refresh button that generates a new password with the previously set parameters. If you click generate password then the form will be cleared and you will have to restart. If you try to generate a password without any of the elements, an error message will pop-up
+This was the calendar project. For this project I really tried to keep the code as minimal as possible. I worked to reduce redundancies without ocmpramising the program. I also worked to use as much Jquery as possible. If I found a way to convert it to Jquery I did. The calender for me runs from 7 AM to 6PM. My work day goes through those timea. The colors should change as the day goes on. It is based on the hour we are in, not the minute and thats what the blocks are. When you type something into the text area the save button will save it locally. I have not found a clear button yet or one the clears the sheet at a new day. If you delete the info and save it, it will clear the sheet.The date is presented at the top as outlined in the readme. 
 
 ## Installation
 N/A
